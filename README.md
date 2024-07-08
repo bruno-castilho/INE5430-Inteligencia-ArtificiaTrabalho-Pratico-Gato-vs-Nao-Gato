@@ -2,8 +2,8 @@
 ## Pre-Requesito
 [python>=3.10.12](https://www.python.org/downloads/)
 
-## Instalação
-Inicialize as dependecias:
+## Dependências
+Instale as dependências do projeto:
 ```bash
   pip install numpy h5py scikit-learn seaborn matplotlib tensorflow
 ```
@@ -14,33 +14,47 @@ Inicialize as dependecias:
 ### Regressão Logística
 - Teste1
   - Utilizando 10 imagens do conjunto de testes.
-  `python3 RegrecaoLogistica/Teste1.py`
+  ```bash
+    python3 RegrecaoLogistica/Teste1.py
+  ```
 - Teste2
   - Utilizando 80 imagens do conjunto de testes.
-  `python3 RegrecaoLogistica/Teste2.py`
+  ```bash
+    python3 RegrecaoLogistica/Teste2.py
+  ```
 - Teste3
   - Utilizando 209 imagens do conjunto de testes.
-  `python3 RegrecaoLogistica/Teste3.py`
+  ```bash
+    python3 RegrecaoLogistica/Teste3.py
+  ```
 
-### Redede camada rasa
+### Rede de camada rasa
 
 - Teste1
-  - Camadadeentrada:64x64x3 vetores.
-  - Camadaintermediária:100 neurônios com função de ativação sigmoid.
-  - Camadadesaída:1 neurônio com função de ativação sigmoid.
-  `python3 RedeDeCamadaRasa/Teste1.py`
+  - Camada de entrada: 64x64x3 vetores.
+  - Camada intermediária: 100 neurônios com função de ativação sigmoid.
+  - Camada de saída: 1 neurônio com função de ativação sigmoid.
+    ```bash
+      python3 RedeDeCamadaRasa/Teste1.py
+    ```
 - Teste2
-  - Camadadeentrada:64x64x3 vetores.
-  - Camadaintermediária:200 neurônios com função de ativação sigmoid.
-  - Camadadesaída:1 neurônio com função de ativação sigmoid.
-  `python3 RedeDeCamadaRasa/Teste2.py`
+  - Camada de entrada: 64x64x3 vetores.
+  - Camada intermediária: 200 neurônios com função de ativação sigmoid.
+  - Camada de saída: 1 neurônio com função de ativação sigmoid.
+    ```bash
+      python3 RedeDeCamadaRasa/Teste2.py
+    ```
 - Teste3
-  - Camadadeentrada:64x64x3 vetores.
-  - Camadaintermediária:100 neurônios com função de ativação ReLU.
-  - Camadadesaída:1 neurônio com função de ativação sigmoid.
-  `python3 RedeDeCamadaRasa/Teste3.py`
+  - Camada de entrada: 64x64x3 vetores.
+  - Camada intermediária: 100 neurônios com função de ativação ReLU.
+  - Camada de saída: 1 neurônio com função de ativação sigmoid.
+    ```bash
+      python3 RedeDeCamadaRasa/Teste3.py
+    ```
 - Teste4
-  - Camadadeentrada:64x64x3 vetores.
-  - Camadaintermediária:200 neurônios com função de ativação ReLU.
-  - Camadadesaída:1 neurônio com função de ativação sigmoid.
-  `python3 RedeDeCamadaRasa/Teste4.py`
+  - Camada de entrada: 64x64x3 vetores.
+  - Camada intermediária: 200 neurônios com função de ativação ReLU.
+  - Camada de saída: 1 neurônio com função de ativação sigmoid.
+    ```bash
+      python3 RedeDeCamadaRasa/Teste4.py
+    ```
